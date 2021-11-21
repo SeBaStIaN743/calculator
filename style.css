@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: 'Roboto';
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    background-color: #1a1b28;
+    width: 450px;
+    height: 780px;
+}
+
+button {
+    font-size: 2rem;
+}
+
+#line {
+    height: 4px;
+    width: 430px;
+    margin: 0 auto;
+    color: #1e2435;
+}
+
+.result{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-top: 50px;
+    color: white;
+    width: 400px;
+    justify-content: space-between;
+    font-size: 3.3rem;
+}
+
+.result p {
+    margin: 0;
+}
+
+.buttons {
+    position: fixed;
+    top: 240px;
+    right: 723px;
+}
+
+.equation {
+    font-size: 2rem;
+    text-align: right;
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 165px;
+}
+
+.blue_buttons {
+    background-color: #52c9dc;
+    color: white;
+    border: 2px #52c9dc solid;
+    border-radius: 20px;
+    width: 90px;
+    height: 90px;
+}
+
+.blue_buttons:hover {
+    background-color: #1a1b28;
+}
+
+.row1-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;
+    margin-top: 20px;
+}
+
+.row4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+    position: relative;
+    margin-top: 20px;
+    z-index: 20;
+    right: 50px;
+}
+
+.row5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+    bottom: 91px;
+}
+
+.number_buttons {
+    background-color: #1e2435;
+    color: white;
+    border: 2px #1e2435 solid;
+    border-radius: 20px;
+    width: 90px;
+    height: 90px;   
+}
+
+.number_buttons:hover {
+    background-color: #1a1b28;
+}
+
+.plus_button {
+    background-color: #52c9dc;
+    color: white;
+    border: 2px #52c9dc solid;
+    border-radius: 20px;
+    width: 90px;
+    position: relative;
+    height: 200px;
+}
+
+.plus_button:hover {
+    background-color: #1a1b28;
+}
+
+#equal_sign{
+    color: #52c9dc;
+}
